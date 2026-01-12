@@ -9,3 +9,5 @@ print("Appending ended")
 with open('Python_files_trial_2.txt', 'r') as file:
     print(file.readlines())
 print("Readlines ended")
+
+#When you use with, you don't need to close the file
